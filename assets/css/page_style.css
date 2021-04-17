@@ -1,0 +1,112 @@
+.body {
+    font-family: 'cardo', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+}
+
+.head {
+    background-repeat: no-repeat;
+    background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.head-container {
+    min-height: 100vh;
+}
+
+h1 {
+    margin-top: 30px;
+    line-height: 1.5em;
+    text-align: start;
+    font-size: 67px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.h2 {
+    font-size: 47px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.corousel {
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg");
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.my-corousel {
+    max-height: 170px;
+}
+
+.entertainment {
+    background-color: #f4eae9;
+}
+
+.entertain {
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.entertain a {
+    text-decoration: none;
+    color: black;
+}
+
+.entertain ~ p {
+    font-size: 13px;
+}
+
+.column p {
+    font-size: 25px !important;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.contact {
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg");
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.footer {
+    color: white;
+    background-color: #212326;
+}
+
+.copyright {
+    color: #547083;
+}
+
+.copyright a {
+    color: #547083;
+}
+
+.active {
+    border-bottom: 2px solid #ce6451
+}
+
+.nav-item:hover {
+    color: white;
+    border-bottom: 2px solid #ce6451
+}
+
+.nav-item {
+    margin: 0px 10px
+}
+
+.unscrolled-nav {
+    max-height: 70px;
+    max-width: 135px;
+}
+
+.scrolled-nav {
+    max-height: 55px;
+    max-width: 100px;
+}
+.navbar{
+    transition: all 1.4s;
+}
+.brand-image{
+    transition: all 1.4s;
+}
